@@ -71,6 +71,7 @@
     <Content Include="CheckBoxOne.aspx" />
     <Content Include="DropdownListPage.aspx" />
     <Content Include="LabelOne.aspx" />
+    <Content Include="LinkButton.aspx" />
     <Content Include="RadioButton.aspx" />
     <Content Include="TextBoxOne.aspx" />
     <Content Include="Web.config" />
@@ -103,6 +104,13 @@
     </Compile>
     <Compile Include="LabelOne.aspx.designer.cs">
       <DependentUpon>LabelOne.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="LinkButton.aspx.cs">
+      <DependentUpon>LinkButton.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="LinkButton.aspx.designer.cs">
+      <DependentUpon>LinkButton.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="RadioButton.aspx.cs">
