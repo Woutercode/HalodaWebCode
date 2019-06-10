@@ -70,10 +70,14 @@
     <Content Include="ButtonOne.aspx" />
     <Content Include="CheckBoxOne.aspx" />
     <Content Include="DropdownListPage.aspx" />
+    <Content Include="ImageSetup.aspx" />
+    <Content Include="images\Butred.png" />
+    <Content Include="images\imgcode.jpg" />
     <Content Include="LabelOne.aspx" />
     <Content Include="LinkButton.aspx" />
     <Content Include="RadioButton.aspx" />
     <Content Include="TextBoxOne.aspx" />
+    <Content Include="UploadSystem.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -97,6 +101,13 @@
     </Compile>
     <Compile Include="DropdownListPage.aspx.designer.cs">
       <DependentUpon>DropdownListPage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ImageSetup.aspx.cs">
+      <DependentUpon>ImageSetup.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ImageSetup.aspx.designer.cs">
+      <DependentUpon>ImageSetup.aspx</DependentUpon>
     </Compile>
     <Compile Include="LabelOne.aspx.cs">
       <DependentUpon>LabelOne.aspx</DependentUpon>
@@ -127,6 +138,13 @@
     <Compile Include="TextBoxOne.aspx.designer.cs">
       <DependentUpon>TextBoxOne.aspx</DependentUpon>
     </Compile>
+    <Compile Include="UploadSystem.aspx.cs">
+      <DependentUpon>UploadSystem.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UploadSystem.aspx.designer.cs">
+      <DependentUpon>UploadSystem.aspx</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
@@ -137,6 +155,7 @@
       <DependentUpon>Web.config</DependentUpon>
     </None>
   </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
