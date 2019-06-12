@@ -78,6 +78,9 @@
     <Content Include="RadioButton.aspx" />
     <Content Include="TextBoxOne.aspx" />
     <Content Include="UploadSystem.aspx" />
+    <Content Include="Validator\RangeValidator.aspx" />
+    <Content Include="Validator\RequiredValidator.aspx" />
+    <Content Include="Validator\ValidatorsControls.txt" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -144,6 +147,20 @@
     </Compile>
     <Compile Include="UploadSystem.aspx.designer.cs">
       <DependentUpon>UploadSystem.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Validator\RangeValidator.aspx.cs">
+      <DependentUpon>RangeValidator.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Validator\RangeValidator.aspx.designer.cs">
+      <DependentUpon>RangeValidator.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Validator\RequiredValidator.aspx.cs">
+      <DependentUpon>RequiredValidator.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Validator\RequiredValidator.aspx.designer.cs">
+      <DependentUpon>RequiredValidator.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>

@@ -1,0 +1,19 @@
+﻿ASP.NET, USER INPUT DATA ARE VALIDATED TO MAKE SURE THE DATA IS CORRECT. 
+
+VALIDATION CONTROLS 
+1. RequiredFieldValidator
+2. RangeValidator 
+3. CompareValidator
+4. RegularExpressionValidator
+5. CustomValidator
+6. ValidationSummary
+
+Need to do
+1. Must connect Validator to user input by using ControlToValidate
+********************************************************************
+2. in Web.config add following code to avoid Script error on Validation Mode
+<appSettings>
+<add key = "ValidationSettings:UnobtrusiveValidationMode" value="None" />
+</appSettings>
+
+
