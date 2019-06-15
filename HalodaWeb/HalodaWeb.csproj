@@ -76,9 +76,15 @@
     <Content Include="LabelOne.aspx" />
     <Content Include="LinkButton.aspx" />
     <Content Include="RadioButton.aspx" />
+    <Content Include="SessionManagement\LoginMember.aspx" />
+    <Content Include="SessionManagement\SecurityModel.aspx" />
+    <Content Include="SessionManagement\Session.txt" />
     <Content Include="TextBoxOne.aspx" />
     <Content Include="UploadSystem.aspx" />
+    <Content Include="Validator\CompareValidator.aspx" />
+    <Content Include="Validator\FullSignUpPage.aspx" />
     <Content Include="Validator\RangeValidator.aspx" />
+    <Content Include="Validator\RegularExpValidator.aspx" />
     <Content Include="Validator\RequiredValidator.aspx" />
     <Content Include="Validator\ValidatorsControls.txt" />
     <Content Include="Web.config" />
@@ -134,6 +140,20 @@
     <Compile Include="RadioButton.aspx.designer.cs">
       <DependentUpon>RadioButton.aspx</DependentUpon>
     </Compile>
+    <Compile Include="SessionManagement\LoginMember.aspx.cs">
+      <DependentUpon>LoginMember.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SessionManagement\LoginMember.aspx.designer.cs">
+      <DependentUpon>LoginMember.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SessionManagement\SecurityModel.aspx.cs">
+      <DependentUpon>SecurityModel.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SessionManagement\SecurityModel.aspx.designer.cs">
+      <DependentUpon>SecurityModel.aspx</DependentUpon>
+    </Compile>
     <Compile Include="TextBoxOne.aspx.cs">
       <DependentUpon>TextBoxOne.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -148,12 +168,33 @@
     <Compile Include="UploadSystem.aspx.designer.cs">
       <DependentUpon>UploadSystem.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Validator\CompareValidator.aspx.cs">
+      <DependentUpon>CompareValidator.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Validator\CompareValidator.aspx.designer.cs">
+      <DependentUpon>CompareValidator.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Validator\FullSignUpPage.aspx.cs">
+      <DependentUpon>FullSignUpPage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Validator\FullSignUpPage.aspx.designer.cs">
+      <DependentUpon>FullSignUpPage.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Validator\RangeValidator.aspx.cs">
       <DependentUpon>RangeValidator.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Validator\RangeValidator.aspx.designer.cs">
       <DependentUpon>RangeValidator.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Validator\RegularExpValidator.aspx.cs">
+      <DependentUpon>RegularExpValidator.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Validator\RegularExpValidator.aspx.designer.cs">
+      <DependentUpon>RegularExpValidator.aspx</DependentUpon>
     </Compile>
     <Compile Include="Validator\RequiredValidator.aspx.cs">
       <DependentUpon>RequiredValidator.aspx</DependentUpon>

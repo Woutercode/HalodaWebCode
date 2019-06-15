@@ -1,0 +1,5 @@
+﻿A Session can store values on the server. It can support any type of object to be stored along with
+our own custom objects. 
+A Session is one of the best techniques for State Management because it stores the data as client-based,
+in other words the data is stored for every user separately and the data is secured also because it is on 
+the server.
